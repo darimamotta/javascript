@@ -1,5 +1,17 @@
 "use strict";
 
-const answer = +prompt("Вам есть 17?","18");
-
-console.log(answer+5);
+const numberOfFilms= prompt ('Сколько фильмов вы уже посмотрели?','');
+const personalMovieDB={
+    count:numberOfFilms,
+    movies:{},
+    actors:{},
+    genres:[],
+    private: false,
+};
+const a=prompt('Один из последних фильмов?',''),
+ b=prompt('На сколько оцените его?',''),
+ c=prompt('Один из последних фильмов?',''),
+ d=prompt('На сколько оцените его?','');
+personalMovieDB.movies[a]=b;
+personalMovieDB.movies[c]=d;
+console.log(personalMovieDB);
