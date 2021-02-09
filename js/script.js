@@ -8,17 +8,24 @@ const personalMovieDB={
     genres:[],
     private: false,
 };
-//for (let i=0;i<2;i++){
-//const a=prompt('Один из последних фильмов?',''),
-// b=prompt('На сколько оцените его?','');
- //if (a!=null&&b!=null&a!=''&&b!=''&&a.length<50){
- let    num=null;
- while (num<2){
-     num++;
-     const a=prompt('Один из последних фильмов?',''),
-     b=prompt('На сколько оцените его?','');
-     if (a!=null&&b!=null&a!=''&&b!=''&&a.length<50){
- 
+for (let i=0;i<2;i++){
+const a=prompt('Один из последних фильмов?',''),
+ b=prompt('На сколько оцените его?','');
+if (a!=null&&b!=null&a!=''&&b!=''&&a.length<50){
+
+ //let    num=null;
+ //while (num<2){
+   //  num++;
+     //const a=prompt('Один из последних фильмов?',''),
+     //b=prompt('На сколько оцените его?','');
+    // if (a!=null&&b!=null&a!=''&&b!=''&&a.length<50){
+
+   // do {console.log(num);
+     //   num++;
+        ///const a=prompt('Один из последних фильмов?',''),
+        //b=prompt('На сколько оцените его?','');}
+        //while (num<2);
+        //if (a!=null&&b!=null&a!=''&&b!=''&&a.length<50){ 
 
  
  
