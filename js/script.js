@@ -24,8 +24,9 @@ showMyDB();
 
 function writeYourGenres(){
     for (var i=1;i<=3;i++) {
-    const genres=prompt(`Ваш любимы жанр под номером ${i}`);
-    personalMovieDB.genres[i-1]=genres;
+    //const genres=prompt(`Ваш любимы жанр под номером ${i}`);
+    //personalMovieDB.genres[i-1]=genres;
+    personalMovieDB.genres[i-1]=prompt(`Ваш любимы жанр под номером ${i}`);
 
 }}
 writeYourGenres();
