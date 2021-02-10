@@ -15,7 +15,20 @@ const personalMovieDB={
     genres:[],
     private: false,
 };
+function showMyDB(hidden){
+if (!hidden) {
+    console.log(personalMovieDB);
+}
+}
+showMyDB();
 
+function writeYourGenres(){
+    for (var i=1;i<=3;i++) {
+    const genres=prompt(`Ваш любимы жанр под номером ${i}`);
+    personalMovieDB.genres[i-1]=genres;
+
+}}
+writeYourGenres();
 function rememberMyFilms(){
 for (let i=0;i<2;i++){
 const a=prompt('Один из последних фильмов?',''),
